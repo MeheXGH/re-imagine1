@@ -10,3 +10,47 @@ backdrop-filter: blur(4.1px);
 -webkit-backdrop-filter: blur(4.1px);
 border: 1px solid rgba(255, 255, 255, 0.2);
 }
+ /* a:before{
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    height: 3px;
+    width: 100px;
+    background: white;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+
+ }
+ a:hover:before{
+    transform: scaleX(1);
+ }
+ .logo img{
+    top: -50%;
+    left:-50%;
+    position: relative;
+    overflow: hidden;
+    transform: rotate(90deg);
+ }  */
+ .link {
+    position: relative;
+  }
+  
+  .link:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #fff;
+    transition: width 0.5s ease;
+    -webkit-transition: width 0.5s ease;
+  }
+  
+  .link:hover:after {
+    width: 100%;
+    left: 0;
+    background: #fff;
+  }
