@@ -42,12 +42,18 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
   }
   .next-pg h2{
-   font-size: 110px;
-   font-weight: 700;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
    text-align: center;
-   /* z-index: -1; */
    color: transparent;
-   -webkit-text-stroke: 3px teal;
+   -webkit-text-stroke: 1.2px teal;
+  }
+  .text{
+    font-size: 7em;
+    /* font-weight: 00; */
+    line-height: 1.5em;
+    transform: scaleY(2.5);
+    display: inline-block;
   }
   /* .next-pg h3{
    color: teal;
@@ -65,7 +71,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
    color: teal;
    margin-top: 75%;
   } */
-  .words{
+  /* .words{
    position:relative;
    animation: move-words 20 linear infinite;
    margin: 0;
@@ -78,4 +84,4 @@ border: 1px solid rgba(255, 255, 255, 0.2);
    100%{
       left: 100%;
    }
-  }
+  } */
