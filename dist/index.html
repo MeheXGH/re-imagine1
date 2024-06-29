@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple-icons/siimple-icons.css" />
+    <style>
+        html.lenis, html.lenis body {
+            height: auto;
+            }
+
+            .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+            }
+
+            .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+            }
+
+            .lenis.lenis-stopped {
+            overflow: hidden;
+            }
+
+            .lenis.lenis-smooth iframe {
+            pointer-events: none;
+            }
+    </style>
 </head>
 <body>
     <div class="main bg-[#000000]  ">
@@ -571,8 +592,8 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
+    <!-- LOCO ADDED  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

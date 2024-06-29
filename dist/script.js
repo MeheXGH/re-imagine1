@@ -1,3 +1,7 @@
+(function () {
+    const locomotiveScroll = new LocomotiveScroll();
+})();
+
 var tl = gsap.timeline();
 
 tl.to(".slide",{
